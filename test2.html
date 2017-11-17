@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<title>installation | selina gerosa</title>
+
+    <link rel="stylesheet" href="css/tachyons.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Playfair+Display:900" rel="stylesheet">
+  </head>
+  <body class="flex flex-column mw9-l">
+    <nav class="fl-ns fn-s w-20-ns w-100 fixed-ns tr-ns tc pt6 pr3-ns pl4-ns f3-l f4-m f6 order-0">
+      <li class="list">
+        <ul class="mt1 mb2 pl0 dib db-ns">
+          <a href="index.html" class="link">home</a>
+        </ul>
+        <ul class="mt1 mb2 pl0 dib db-ns">
+          <a href="print.html" class="link">print</a>
+        </ul>
+        <ul class="mt1 mb2 pl0 dib db-ns">
+          <a href="digital.html" class="link">digital</a>
+        </ul>
+        <ul class="mt1 mb2 pl0 dib db-ns">
+          <a href="contact.html" class="link">contact</a>
+        </ul>
+      </li>
+    </nav>
+
+    <div class="flex flex-row-ns flex-column  pt2-ns pt2 pl4-ns pl2 pr1 pr3-ns justify-end-ns justify-center flex-wrap">
+      <header class="w-80-ns w-100 pt4 order-1-ns order-0 pl5-l pl4-m pr1">
+        <img src="img/headergifs/installation.gif" alt="gif of 'installation' in green sparkly text" class="w-90-l">
+      </header>
+
+      <div class="fl-ns fn-s w-25-ns w-100-s static pt6-ns pl4-ns pt2 pl2 pr2 order-2">
+        <h3 class="f3 f4-m">jacob cooper website</h3>
+        <p class="f5-ns f3-s mb2">i migrated the website of musician jacob cooper to squarespace and redesigned it. you can check it out <a href="https://jacobcoopermusic.com" class="link">here.</a></p>
+        <p class="f5-ns f3-s mt0">2017</p>
+        <img src="img/digital/cooper1.png" alt="cooper1">
+        <div class="flex flex-wrap justify-between">
+          <img src="img/digital/cooper2.jpg" onclick="openbox();current(1)" class="w-40 pt1 pb1  ">
+          <img src="img/digital/cooper3.jpg" onclick="openbox();current(2)" class="w-40 pt1 pb1  ">
+          <img src="img/digital/cooper4.jpg" onclick="openbox();current(3)" class="w-40 pt1 pb1  ">
+          <img src="img/digital/cooper5.jpg" onclick="openbox();current(4)" class="w-40 pt1 pb1  ">
+        </div>
+      </div>
+
+<div id="myModal" class="modal flex justify-center items-center pt5">
+  <span class="close " onclick="closebox()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <img src="img/digital/cooper2b.png">
+    </div>
+
+    <div class="mySlides">
+      <img src="img/digital/cooper3b.png">
+    </div>
+
+    <div class="mySlides">
+      <img src="img/digital/cooper4b.png">
+    </div>
+
+    <div class="mySlides">
+      <img src="img/digital/cooper5b.png">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="flex flex-row pl5 pr5 justify-between items-center">
+    <div class="w-20">
+      <img class="demo  " src="img/digital/cooper2.jpg" style="width:100%" onclick="current(1)" alt="Nature and sunrise">
+    </div>
+    <div class="w-20">
+      <img class="demo  " src="img/digital/cooper3.jpg" style="width:100%" onclick="current(2)" alt="Trolltunga, Norway">
+    </div>
+    <div class="w-20">
+      <img class="demo  " src="img/digital/cooper4.jpg" style="width:100%" onclick="current(3)" alt="Mountains and fjords">
+    </div>
+    <div class="w-20">
+      <img class="demo  " src="img/digital/cooper5.jpg" style="width:100%" onclick="current(4)" alt="Northern Lights">
+    </div>
+  </div>
+  </div>
+</div>
+
+  <script>
+    function openbox() {
+      document.getElementById('myModal').style.display = "block";
+    }
+
+    function closebox() {
+      document.getElementById('myModal').style.display = "none";
+    }
+
+    var ind = 1;
+    showSlides(ind);
+
+    function plusSlides(n) {
+      showSlides(ind += n);
+    }
+
+    function current(n) {
+      showSlides(ind = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+
+      if (n > slides.length) {ind = 1}
+      if (n < 1) {ind = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[ind-1].style.display = "block";
+      dots[ind-1].className += " active";
+    }
+  </script>
+</body>
+</html>
