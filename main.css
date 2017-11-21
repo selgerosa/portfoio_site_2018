@@ -17,7 +17,8 @@ a:visited {
 }
 
 img {
-  align-self: center
+  align-self: center;
+  max-width: 100%;
 }
 
 body {
@@ -28,7 +29,7 @@ footer {
   font-family: 'Playfair Display', serif;
 }
 
-
+.wrap {overflow:hidden;}
 
 /*lightbox bits*/
 
@@ -48,10 +49,10 @@ footer {
 /* Modal Content */
 .modal-content {
   position: relative;
-  margin: auto;
+  margin: 0;
   padding: 0;
-  max-width: 75vw;
-  max-height: 80vh;
+  max-height: 90vh;
+  max-width:1000px;
 }
 
 /* The Close Button */
@@ -65,10 +66,7 @@ footer {
 }
 
 
-.slides {
-  display: none;
-}
-.slides2 {
+.slides, .slides2, .slides3, .slides4, .slides5, .slides6, .slides7, .slides8, .slides9, .slides10, .slides11, .slides12, .slides13, .slides14, .slides15, .slides16 {
   display: none;
 }
 
@@ -76,10 +74,9 @@ footer {
 .prev,
 .next {
   position: absolute;
-  top: 50%;
+  bottom: 50%;
   width: auto;
   padding: 16px;
-  margin-top: -10vh;
   color: white;
   font-weight: bold;
   font-size: 20px;
