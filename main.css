@@ -44,7 +44,9 @@ footer {
   height: 100vh;
   overflow: auto;
   background-image: url("img/bgs/sky1.gif");
+  background-blend-mode: screen;
 }
+
 
 /* Modal Content */
 .modal-content {
