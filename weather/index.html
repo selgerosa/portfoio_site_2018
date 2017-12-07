@@ -12,31 +12,6 @@
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
     <script>
-      var clear_cold = ["url(img/clear_cold/1.gif)","url(img/clear_cold/2.gif)","url(img/clear_cold/3.gif)","url(img/clear_cold/4.gif)","url(img/clear_cold/5.gif)","url(img/clear_cold/6.gif)","url(img/clear_cold/7.gif)","url(img/clear_cold/8.gif)","url(img/clear_cold/9.gif)","url(img/clear_cold/10.gif)"];
-      var clear_warm = ["url(img/clear_warm/1.gif)","url(img/clear_warm/2.gif)","url(img/clear_warm/3.gif)","url(img/clear_warm/4.gif)","url(img/clear_warm/5.gif)","url(img/clear_warm/6.gif)","url(img/clear_warm/7.gif)","url(img/clear_warm/8.gif)","url(img/clear_warm/9.gif)","url(img/clear_warm/10.gif)"];
-      var clear_hot = ["url(img/clear_hot/1.gif)","url(img/clear_hot/2.gif)","url(img/clear_hot/3.gif)","url(img/clear_hot/4.gif)","url(img/clear_hot/5.gif)","url(img/clear_hot/6.gif)","url(img/clear_hot/7.gif)","url(img/clear_hot/8.gif)","url(img/clear_hot/9.gif)","url(img/clear_hot/10.gif)"];
-
-      var clouds_cold = ["url(img/clouds_cold/1.gif)","url(img/clouds_cold/2.gif)","url(img/clouds_cold/3.gif)","url(img/clouds_cold/4.gif)","url(img/clouds_cold/5.gif)","url(img/clouds_cold/6.gif)","url(img/clouds_cold/7.gif)","url(img/clouds_cold/8.gif)","url(img/clouds_cold/9.gif)","url(img/clouds_cold/10.gif)"];
-      var clouds_warm = ["url(img/clouds_warm/1.gif)","url(img/clouds_warm/2.gif)","url(img/clouds_warm/3.gif)","url(img/clouds_warm/4.gif)","url(img/clouds_warm/5.gif)","url(img/clouds_warm/6.gif)","url(img/clouds_warm/7.gif)","url(img/clouds_warm/8.gif)","url(img/clouds_warm/9.gif)","url(img/clouds_warm/10.gif)"];
-      var clouds_hot = ["url(img/clouds_hot/1.gif)","url(img/clouds_hot/2.gif)","url(img/clouds_hot/3.gif)","url(img/clouds_hot/4.gif)","url(img/clouds_hot/5.gif)","url(img/clouds_hot/6.gif)","url(img/clouds_hot/7.gif)","url(img/clouds_hot/8.gif)","url(img/clouds_hot/9.gif)","url(img/clouds_hot/10.gif)"];
-
-      var drizzle_cold = ["url(img/drizzle_cold/1.gif)","url(img/drizzle_cold/2.gif)","url(img/drizzle_cold/3.gif)","url(img/drizzle_cold/4.gif)","url(img/drizzle_cold/5.gif)","url(img/drizzle_cold/6.gif)","url(img/drizzle_cold/7.gif)","url(img/drizzle_cold/8.gif)","url(img/drizzle_cold/9.gif)","url(img/drizzle_cold/10.gif)"];
-      var drizzle_warm = ["url(img/drizzle_warm/1.gif)","url(img/drizzle_warm/2.gif)","url(img/drizzle_warm/3.gif)","url(img/drizzle_warm/4.gif)","url(img/drizzle_warm/5.gif)","url(img/drizzle_warm/6.gif)","url(img/drizzle_warm/7.gif)","url(img/drizzle_warm/8.gif)","url(img/drizzle_warm/9.gif)","url(img/drizzle_warm/10.gif)"];
-      var drizzle_hot = ["url(img/drizzle_hot/1.gif)","url(img/drizzle_hot/2.gif)","url(img/drizzle_hot/3.gif)","url(img/drizzle_hot/4.gif)","url(img/drizzle_hot/5.gif)","url(img/drizzle_hot/6.gif)","url(img/drizzle_hot/7.gif)","url(img/drizzle_hot/8.gif)","url(img/drizzle_hot/9.gif)","url(img/drizzle_hot/10.gif)"];
-
-      var rain_cold = ["url(img/rain_cold/1.gif)","url(img/rain_cold/2.gif)","url(img/rain_cold/3.gif)","url(img/rain_cold/4.gif)","url(img/rain_cold/5.gif)","url(img/rain_cold/6.gif)","url(img/rain_cold/7.gif)","url(img/rain_cold/8.gif)","url(img/rain_cold/9.gif)","url(img/rain_cold/10.gif)"];
-      var rain_warm = ["url(img/rain_warm/1.gif)","url(img/rain_warm/2.gif)","url(img/rain_warm/3.gif)","url(img/rain_warm/4.gif)","url(img/rain_warm/5.gif)","url(img/rain_warm/6.gif)","url(img/rain_warm/7.gif)","url(img/rain_warm/8.gif)","url(img/rain_warm/9.gif)","url(img/rain_warm/10.gif)"];
-      var rain_hot = ["url(img/rain_hot/1.gif)","url(img/rain_hot/2.gif)","url(img/rain_hot/3.gif)","url(img/rain_hot/4.gif)","url(img/rain_hot/5.gif)","url(img/rain_hot/6.gif)","url(img/rain_hot/7.gif)","url(img/rain_hot/8.gif)","url(img/rain_hot/9.gif)","url(img/rain_hot/10.gif)"];
-
-      var snow_cold = ["url(img/snow_cold/1.gif)","url(img/snow_cold/2.gif)","url(img/snow_cold/3.gif)","url(img/snow_cold/4.gif)","url(img/snow_cold/5.gif)","url(img/snow_cold/6.gif)","url(img/snow_cold/7.gif)","url(img/snow_cold/8.gif)","url(img/snow_cold/9.gif)","url(img/snow_cold/10.gif)"];
-      var snow_warm = ["url(img/snow_warm/1.gif)","url(img/snow_warm/2.gif)","url(img/snow_warm/3.gif)","url(img/snow_warm/4.gif)","url(img/snow_warm/5.gif)","url(img/snow_warm/6.gif)","url(img/snow_warm/7.gif)","url(img/snow_warm/8.gif)","url(img/snow_warm/9.gif)","url(img/snow_warm/10.gif)"];
-      var snow_hot = ["url(img/snow_hot/1.gif)","url(img/snow_hot/2.gif)","url(img/snow_hot/3.gif)","url(img/snow_hot/4.gif)","url(img/snow_hot/5.gif)","url(img/snow_hot/6.gif)","url(img/snow_hot/7.gif)","url(img/snow_hot/8.gif)","url(img/snow_hot/9.gif)","url(img/snow_hot/10.gif)"];
-
-      var thunderstorm_cold = ["url(img/thunderstorm_cold/1.gif)","url(img/thunderstorm_cold/2.gif)","url(img/thunderstorm_cold/3.gif)","url(img/thunderstorm_cold/4.gif)","url(img/thunderstorm_cold/5.gif)","url(img/thunderstorm_cold/6.gif)","url(img/thunderstorm_cold/7.gif)","url(img/thunderstorm_cold/8.gif)","url(img/thunderstorm_cold/9.gif)","url(img/thunderstorm_cold/10.gif)"];
-      var thunderstorm_warm = ["url(img/thunderstorm_warm/1.gif)","url(img/thunderstorm_warm/2.gif)","url(img/thunderstorm_warm/3.gif)","url(img/thunderstorm_warm/4.gif)","url(img/thunderstorm_warm/5.gif)","url(img/thunderstorm_warm/6.gif)","url(img/thunderstorm_warm/7.gif)","url(img/thunderstorm_warm/8.gif)","url(img/thunderstorm_warm/9.gif)","url(img/thunderstorm_warm/10.gif)"];
-      var thunderstorm_hot = ["url(img/thunderstorm_hot/1.gif)","url(img/thunderstorm_hot/2.gif)","url(img/thunderstorm_hot/3.gif)","url(img/thunderstorm_hot/4.gif)","url(img/thunderstorm_hot/5.gif)","url(img/thunderstorm_hot/6.gif)","url(img/thunderstorm_hot/7.gif)","url(img/thunderstorm_hot/8.gif)","url(img/thunderstorm_hot/9.gif)","url(img/thunderstorm_hot/10.gif)"];
-
-      var error = ["url(img/error/1.gif)","url(img/error/2.gif)","url(img/error/3.gif)","url(img/error/4.gif)","url(img/error/5.gif)","url(img/error/6.gif)","url(img/error/7.gif)","url(img/error/8.gif)","url(img/error/9.gif)","url(img/error/10.gif)"];
 
       function gen(lst) {
         var rand = Math.floor((Math.random() * 10));
@@ -55,31 +30,6 @@
   <body>
 
       <div id="bg" >
-        <iframe class="clear_cold" onload="gen(clear_cold);"></iframe>
-        <iframe class="clear_warm" onload="gen(clear_warm);"></iframe>
-        <iframe class="clear_hot" onload="gen(clear_hot);"></iframe>
-
-        <iframe class="clouds_cold" onload="gen(clouds_cold);"></iframe>
-        <iframe class="clouds_warm" onload="gen(clouds_warm);"></iframe>
-        <iframe class="clouds_hot" onload="gen(clouds_hot);"></iframe>
-
-        <iframe class="drizzle_cold" onload="gen(drizzle_cold);"></iframe>
-        <iframe class="drizzle_warm" onload="gen(drizzle_warm);"></iframe>
-        <iframe class="drizzle_hot" onload="gen(drizzle_hot);"></iframe>
-
-        <iframe class="rain_cold" onload="gen(rain_cold);"></iframe>
-        <iframe class="rain_warm" onload="gen(rain_warm);"></iframe>
-        <iframe class="rain_hot" onload="gen(rain_hot);"></iframe>
-
-        <iframe class="snow_cold" onload="gen(snow_cold);"></iframe>
-        <iframe class="snow_warm" onload="gen(snow_warm);"></iframe>
-        <iframe class="snow_hot" onload="gen(snow_hot);"></iframe>
-
-        <iframe class="thunderstorm_cold" onload="gen(thunderstorm_cold);"></iframe>
-        <iframe class="thunderstorm_warm" onload="gen(thunderstorm_warm);"></iframe>
-        <iframe class="thunderstorm_hot" onload="gen(thunderstorm_hot);"></iframe>
-
-
       </div>
       <div class=" content flex justify-center items-center flex-column w-100 h-100" >
         <!-- If there is an error, this box is shown. 'dn' is the only required class -->
