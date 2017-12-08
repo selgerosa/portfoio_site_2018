@@ -11,20 +11,6 @@
     <link rel="stylesheet" href="css/tachyons.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
-    <script>
-
-      function gen(lst) {
-        var rand = Math.floor((Math.random() * 10));
-        document.getElementById("bg").style.backgroundImage = lst[rand];
-      }
-
-      function generror(lst) {
-        var rand = Math.floor((Math.random() * 10));
-        document.getElementById("error").style.backgroundImage = lst[rand];
-      }
-
-    </script>
-
   </head>
 
   <body>
@@ -35,7 +21,6 @@
         <!-- If there is an error, this box is shown. 'dn' is the only required class -->
         <div id="error" class="dn white pa4 fixed bottom-0 w-100 h-100 tc">
           Sorry, we couldn't find that city.
-          <iframe style="display:none;" onload="generror(error);"></iframe>
         </div>
 
       <!-- Search Box -->
