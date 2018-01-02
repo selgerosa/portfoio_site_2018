@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<title>home | selina gerosa</title>
+
+    <link rel="stylesheet" href="css/tachyons.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Playfair+Display:900" rel="stylesheet">
+    <script src="javascript/main.js"></script>
+  </head>
+  <body class="flex flex-column mw9-l">
+    <nav class="fl-ns fn-s w-20-ns w-100 fixed-ns tr-ns tc pt6-ns pt4 pr3-ns pl4-ns f3-l f4-m f6 order-0">
+      <li class="list">
+        <ul class="mt1 mb2 pl0 dib db-ns">
+          <a href="print.html" class="link">print</a>
+        </ul>
+        <ul class="mt1 mb2 pl0 dib db-ns">
+          <a href="digital.html" class="link">digital</a>
+        </ul>
+        <ul class="mt1 mb2 pl0 dib db-ns">
+          <a href="instal.html" class="link">installation</a>
+        </ul>
+        <ul class="mt1 mb2 pl0 dib db-ns">
+          <a href="contact.html" class="link">contact</a>
+        </ul>
+      </li>
+    </nav>
+
+
+    <div class="flex flex-row-ns flex-column  pt2-ns pt2 pl4-ns pr3-ns pl2 pr1  justify-end-ns justify-center flex-wrap">
+    <header class="w-80-ns w-100 pt4 order-1-ns order-0 pl6-l pl5-m pr1-ns">
+      <img src="img/headergifs/wu.gif" alt="gif of 'what's up' in green sparkly text" class="">
+      <h3 class="  f2 mb1 mt2 tr-ns tc mr6-ns">i'm selina gerosa</h3>
+    </header>
+<!-- content -->
+      <div class="fl-ns fn-s w-25-ns w-100-s static pt6-ns pl4-ns pt2 pl2 pr2 order-2">
+        <h3 class="f2">jacob cooper website</h3>
+        <p class="f5-ns f3-s mb2">i migrated the website of musician jacob cooper to squarespace and redesigned it. you can check it out <a href="https://jacobcoopermusic.com" class="link">here.</a></p>
+        <p class="f5-ns f3-s mt0">2017</p>
+        <img src="img/digital/cooperlogo.gif" onclick="openbox(1);current(1,1);bgchange(1)" alt="cooper logo">
+        <div class="flex flex-wrap justify-between">
+          <img src="img/digital/cooper1.png" onclick="openbox(1);current(2,1);bgchange(1)" alt="cooper 1" class="w-40 pt1 pb1  ">
+          <img src="img/digital/cooper2.jpg" onclick="openbox(1);current(3,1);bgchange(1)" alt="cooper 2" class="w-40 pt1 pb1  ">
+          <img src="img/digital/cooper3.jpg" onclick="openbox(1);current(4,1);bgchange(1)" alt="cooper 3" class="w-40 pt1 pb1  ">
+          <img src="img/digital/cooper4.jpg" onclick="openbox(1);current(5,1);bgchange(1)" alt="cooper 4" class="w-40 pt1 pb1  ">
+          <img src="img/digital/cooper5.jpg" onclick="openbox(1);current(6,1);bgchange(1)" alt="cooper 5" class="w-40 pt1 pb1  ">
+          <img src="img/digital/cooper6.jpg" onclick="openbox(1);current(7,1);bgchange(1)" alt="cooper 6" class="w-40 pt1 pb1">
+        </div>
+      </div>
+    </div>
+<!--  lightbox 1 -->
+<div id="modal1" class="modal flex justify-center items-center pa5 pt4">
+  <div class="modal-content">
+    <img class="prev" onclick="plusSlides(-1,1);bgchange(1)" src="img/left.png"></img>
+    <img class="next" onclick="plusSlides(1,1);bgchange(1)" src="img/right.png"></img>
+    <div class="slides1">
+      <img src="img/digital/cooperlogo.gif">
+    </div>
+
+    <div class="slides1">
+      <img src="img/digital/cooper1b.png">
+    </div>
+
+    <div class="slides1">
+      <img src="img/digital/cooper2b.png">
+    </div>
+
+    <div class="slides1">
+      <img src="img/digital/cooper3b.png">
+    </div>
+
+    <div class="slides1">
+      <img src="img/digital/cooper4b.png">
+    </div>
+
+    <div class="slides1">
+      <img src="img/digital/cooper5b.png">
+    </div>
+
+    <div class="slides1">
+      <img src="img/digital/cooper6b.png">
+    </div>
+
+
+
+<!-- lightbox nav -->
+    <div class="flex flex-row pl5 pr5 pt2 justify-between items-center ">
+    <div class="w-20">
+      <img class="demo" src="img/digital/cooperlogo.gif" style="width:100%" onclick="current(1,1);bgchange(1)" alt="cooper logo">
+    </div>
+    <div class="w-20">
+      <img class="demo" src="img/digital/cooper1.png" style="width:100%" onclick="current(2,1);bgchange(1)" alt="cooper 1">
+    </div>
+    <div class="w-20">
+      <img class="demo" src="img/digital/cooper2.jpg" style="width:100%" onclick="current(3,1);bgchange(1)" alt="cooper 2">
+    </div>
+    <div class="w-20">
+      <img class="demo" src="img/digital/cooper3.jpg" style="width:100%" onclick="current(4,1);bgchange(1)" alt="cooper 3">
+    </div>
+    <div class="w-20">
+      <img class="demo" src="img/digital/cooper4.jpg" style="width:100%" onclick="current(5,1);bgchange(1)" alt="cooper 4">
+    </div>
+    <div class="w-20">
+      <img class="demo" src="img/digital/cooper5.jpg" style="width:100%" onclick="current(6,1);bgchange(1)" alt="cooper 5">
+    </div>
+    <div class="w-20">
+      <img class="demo" src="img/digital/cooper6.jpg" style="width:100%" onclick="current(7,1);bgchange(1)" alt="cooper 6">
+    </div>
+  </div>
+
+
+  </div>
+  <div id="bg" onclick="closebox(1)">
+  </div>
+</div>
+
+
+
+      <footer class="bg-black-10 mt4"><p class="tc ">&copy; selina gerosa ;)</p></footer>
+</body>
+</html>

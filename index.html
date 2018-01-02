@@ -70,7 +70,6 @@
       </div>
 <!--  lightbox 1 -->
 <div id="modal1" class="modal flex justify-center items-center pa5 pt4">
-  <span class="close " onclick="closebox(1)">&times;</span>
   <div class="modal-content">
 
     <div class="slides1">
@@ -101,8 +100,8 @@
       <img src="img/digital/cooper6b.png">
     </div>
 
-    <a class="prev" onclick="plusSlides(-1,1);bgchange(1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1,1);bgchange(1)">&#10095;</a>
+    <img class="prev" onclick="plusSlides(-1,1);bgchange(1)" src="img/left.png"></img>
+    <img class="next" onclick="plusSlides(1,1);bgchange(1)" src="img/right.png"></img>
 
 <!-- lightbox nav -->
     <div class="flex flex-row pl5 pr5 pt2 justify-between items-center ">
@@ -129,11 +128,15 @@
     </div>
   </div>
   </div>
+  <div id="bg1" onclick="closebox(1)">
+  </div>
 </div>
 <!--  lightbox 2 -->
 <div id="modal2" class="modal flex justify-center items-center pa5 pt4">
-  <span class="close " onclick="closebox(2)">&times;</span>
   <div class="modal-content flex justify-center flex-column">
+    <img class="prev" onclick="plusSlides(-1,2);bgchange(2)" src="img/left.png"></img>
+    <img class="next" onclick="plusSlides(1,2);bgchange(2)" src="img/right.png"></img>
+
 <div class="flex items-center justify-center wrap">
     <div class="slides2">
       <img src="img/instal/forget4b.jpg">
@@ -155,8 +158,6 @@
       <img src="img/instal/forget5b.jpg">
     </div>
 </div>
-    <a class="prev" onclick="plusSlides(-1,2);bgchange(2)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1,2);bgchange(2)">&#10095;</a>
 
 <!-- lightbox nav -->
     <div class="flex flex-row pl5 pr5 pt5 justify-between items-center wrap">
@@ -177,18 +178,19 @@
     </div>
   </div>
   </div>
+  <div id="bg2" onclick="closebox(2)">
+  </div>
 </div>
 
 <!--  lightbox 3 -->
 <div id="modal3" class="modal flex justify-center items-center pa5 pt4">
-  <span class="close " onclick="closebox(3)">&times;</span>
   <div class="modal-content">
 
     <div class="slides3">
       <img src="img/digital/opinion.png">
     </div>
-    <a class="prev" onclick="plusSlides(-1,3);bgchange(3)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1, 3);bgchange(3)">&#10095;</a>
+    <img class="prev" onclick="plusSlides(-1,1);bgchange(3)" src="img/left.png"></img>
+    <img class="next" onclick="plusSlides(1,1);bgchange(3)" src="img/right.png"></img>
 
 <!-- lightbox nav -->
     <div class="flex flex-row pl5 pr5 pt2 justify-between items-center ">
@@ -197,11 +199,11 @@
     </div>
   </div>
   </div>
+  <div id="bg3" onclick="closebox(3)">
+  </div>
 </div>
 
 
-  <script>
-
-  </script>
+      <footer class="bg-black-10 mt4"><p class="tc ">&copy; selina gerosa ;)</p></footer>
 </body>
 </html>

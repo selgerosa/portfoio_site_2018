@@ -11,9 +11,9 @@
 // toggleClass('.myClass', 'class-to-toggle')
 
 function bgchange(m) {  //m is the # modal
-  var lst = ["url(img/bgs/sky1.gif)","url(img/bgs/sky2.gif)","url(img/bgs/sky3.gif)","url(img/bgs/sky4.gif)","url(img/bgs/sky5.gif)","url(img/bgs/sky6.gif)","url(img/bgs/sky7.gif)", "url(img/bgs/sky8.gif)"]
+  var lst = ["url(img/bgs/sky1.gif)","url(img/bgs/sky2.gif)","url(img/bgs/sky3.gif)","url(img/bgs/sky4.gif)","url(img/bgs/sky5.gif)","url(img/bgs/sky6.gif)","url(img/bgs/sky7.gif)", "url(img/bgs/sky8.gif)", "url(img/bgs/sky9.gif)", "url(img/bgs/sky10.gif)"]
   var rand = Math.floor((Math.random() * 8));
-  document.getElementById('modal'+m).style.backgroundImage = lst[rand];
+  document.getElementById('bg'+m).style.backgroundImage = lst[rand];
 }
 function openbox(m) {
   document.getElementById('modal'+m).style.display = "block";
