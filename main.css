@@ -1,7 +1,4 @@
-/* ========================================
- * CSS written here will override Tachyons
- * ======================================== */
-
+/* written by selina gerosa */
 a {
   font-family: 'Playfair Display', serif;
   color: Green;
@@ -33,7 +30,7 @@ footer {
 
 /*lightbox bits*/
 
-/* The Modal (background) */
+/* background */
 .modal {
   display: none;
   position: fixed;
@@ -46,7 +43,7 @@ footer {
 }
 
 
-/* Modal Content */
+/* Content */
 .modal-content {
   position: relative;
   margin: 0;
