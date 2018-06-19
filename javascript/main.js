@@ -1,18 +1,6 @@
-// ========================================
-// Your JavaScript goes here
-// ========================================
-
-// If you want to use the toggleClass
-// function, uncomment the function below
-// and replace '.myClass' and
-// 'class-to-toggle' with your own data.
-// Both parameters must be in quotes.
-
-// toggleClass('.myClass', 'class-to-toggle')
-
 function bgchange(m) {  //m is the # modal
   var lst = ["url(img/bgs/sky1.gif)","url(img/bgs/sky2.gif)","url(img/bgs/sky3.gif)","url(img/bgs/sky4.gif)","url(img/bgs/sky5.gif)","url(img/bgs/sky6.gif)","url(img/bgs/sky7.gif)", "url(img/bgs/sky8.gif)", "url(img/bgs/sky9.gif)", "url(img/bgs/sky10.gif)"]
-  var rand = Math.floor((Math.random() * 8));
+  var rand = Math.floor((Math.random() * 10));
   document.getElementById('bg'+m).style.backgroundImage = lst[rand];
 }
 function openbox(m) {
