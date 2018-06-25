@@ -57,7 +57,7 @@ gtag('config', 'UA-112773030-1');
         </ul>
       </li>
     </nav>
-
+    <img src="img/const.gif" alt="" class="fixed bottom-0 left-0">
 
     <div class="flex flex-row-ns flex-column  pt2-ns pt2 pl4-ns pr3-ns pl2 pr1  justify-end-ns justify-center flex-wrap">
     <header class="w-80-ns w-100 pt4 order-1-ns order-0 pl6-l pl5-m pr1-ns">
@@ -99,8 +99,11 @@ gtag('config', 'UA-112773030-1');
       </div>
       </div>
 <!--  lightbox 1 -->
-<div id="modal1" class="modal flex justify-center items-center pa5 pt4">
-  <div class="modal-content">
+<div id="modal1" class="modal flex justify-center items-center pa5 pt4 wrap">
+  <div class="modal-content flex justify-center flex-column">
+    <img class="prev" onclick="plusSlides(-1,2);bgchange(2)" src="img/left.png"></img>
+    <img class="next" onclick="plusSlides(1,2);bgchange(2)" src="img/right.png"></img>
+<div class="flex items-center justify-center mt4 mb4 wrap">
 
     <div class="slides1">
       <img src="img/digital/cooperlogo.gif">
@@ -129,31 +132,30 @@ gtag('config', 'UA-112773030-1');
     <div class="slides1">
       <img src="img/digital/cooper6b.png">
     </div>
+  </div>
 
-    <img class="prev" onclick="plusSlides(-1,1);bgchange(1)" src="img/left.png"></img>
-    <img class="next" onclick="plusSlides(1,1);bgchange(1)" src="img/right.png"></img>
 
 <!-- lightbox nav -->
-    <div class="flex flex-row pl5 pr5 pt2 justify-between items-center ">
-    <div class="w-20">
+    <div class="flex flex-row pt3 justify-between items-center wrap">
+    <div class="ml2 mr2 wrap mw4 h4">
       <img class="demo" src="img/digital/cooperlogo.gif" style="width:100%" onclick="current(1,1);bgchange(1)" alt="cooper logo">
     </div>
-    <div class="w-20">
+    <div class="ml2 mr2 wrap mw4 h4">
       <img class="demo" src="img/digital/cooper1.png" style="width:100%" onclick="current(2,1);bgchange(1)" alt="cooper 1">
     </div>
-    <div class="w-20">
+    <div class="ml2 mr2 wrap mw4 h4">
       <img class="demo" src="img/digital/cooper2.jpg" style="width:100%" onclick="current(3,1);bgchange(1)" alt="cooper 2">
     </div>
-    <div class="w-20">
+    <div class="ml2 mr2 wrap mw4 h4">
       <img class="demo" src="img/digital/cooper3.jpg" style="width:100%" onclick="current(4,1);bgchange(1)" alt="cooper 3">
     </div>
-    <div class="w-20">
+    <div class="ml2 mr2 wrap mw4 h4">
       <img class="demo" src="img/digital/cooper4.jpg" style="width:100%" onclick="current(5,1);bgchange(1)" alt="cooper 4">
     </div>
-    <div class="w-20">
+    <div class="ml2 mr2 wrap mw4 h4">
       <img class="demo" src="img/digital/cooper5.jpg" style="width:100%" onclick="current(6,1);bgchange(1)" alt="cooper 5">
     </div>
-    <div class="w-20">
+    <div class="ml2 mr2 wrap mw4 h4">
       <img class="demo" src="img/digital/cooper6.jpg" style="width:100%" onclick="current(7,1);bgchange(1)" alt="cooper 6">
     </div>
   </div>
@@ -162,12 +164,12 @@ gtag('config', 'UA-112773030-1');
   </div>
 </div>
 <!--  lightbox 2 -->
-<div id="modal2" class="modal flex justify-center items-center pa5 pt4">
+<div id="modal2" class="modal flex justify-center items-center pa5 pt4 wrap">
   <div class="modal-content flex justify-center flex-column">
     <img class="prev" onclick="plusSlides(-1,2);bgchange(2)" src="img/left.png"></img>
     <img class="next" onclick="plusSlides(1,2);bgchange(2)" src="img/right.png"></img>
 
-<div class="flex items-center justify-center wrap">
+<div class="flex items-center justify-center mt4 mb4 wrap">
     <div class="slides2">
       <img src="img/instal/forget4b.jpg">
     </div>
@@ -190,20 +192,20 @@ gtag('config', 'UA-112773030-1');
 </div>
 
 <!-- lightbox nav -->
-    <div class="flex flex-row pl5 pr5 pt5 justify-between items-center wrap">
-    <div class="w-20 wrap">
+    <div class="flex flex-row pt3 justify-between items-center wrap">
+    <div class="ml2 mr2 wrap mw4 h4">
       <img class="demo" src="img/instal/forget4.jpg" style="width:100%" onclick="current(1,2);bgchange(2)" alt="installation shot of whole space including three charcoal portraits of women with blurred faces and large yarn web">
     </div>
-    <div class="w-20 wrap">
+    <div class="ml2 mr2 wrap mw4 h4">
       <img class="demo" src="img/instal/forget2.jpg" style="width:100%" onclick="current(2,2);bgchange(2)" alt="six collages about womanhood in society some with glitter and sequins">
     </div>
-    <div class="w-20 wrap">
+    <div class="ml2 mr2 wrap mw4 h4">
       <img class="demo" src="img/instal/forget3.jpg" style="width:100%" onclick="current(3,2);bgchange(2)" alt="wall with web and large text reading 'as though artists were influenced only by other artists'">
     </div>
-    <div class="w-20 wrap">
+    <div class="ml2 mr2 wrap mw4 h4">
       <img class="demo" src="img/instal/forget1.jpg" style="width:100%" onclick="current(4,2);bgchange(2)" alt="corner with web and two large wire spiders and large sculpture with broken glass and plates and large text on walls reading 'they are spinning, they are caught in the web'">
     </div>
-    <div class="w-20 wrap ">
+    <div class="ml2 mr2 wrap  mw4 h4">
       <img class="demo" src="img/instal/forget5.jpg" style="width:100%" onclick="current(5,2);bgchange(2)" alt="close up of yarn web">
     </div>
   </div>
