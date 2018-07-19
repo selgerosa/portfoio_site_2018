@@ -166,7 +166,7 @@
 
       <div class="flex flex-row-ns flex-column pt3 justify-between items-center nav w-80">
         <div class="ml2 mr2 wrap mw4 h4 w-10-ns w-30 mt0-ns mt3">
-          <img class="prev" onclick="changeNav(-1,'nava')" src="img/left.png"></img>
+          <img class="prev" onclick="plusSlides(-1,1),bgchange(1)" src="img/left.png"></img>
         </div>
 
         <div class="flex flex-row-ns flex-column justify-between nava" id="nava1">
@@ -198,9 +198,9 @@
         </div>
 
         <div class="ml2 mr2 wrap mw4 h4 w-10-ns w-30 mt0-ns mt3">
-          <img class="next" onclick="changeNav(1,'nava')" src="img/right.png"></img>
+          <img class="next" onclick="plusSlides(1,1),bgchange(1)" src="img/right.png"></img>
         </div>
-
+        <img class="down" onclick="changeNav(-1,'nava')" src="img/down.png"></img>
         </div>
       </div>
     <div id="bg1" onclick="closebox(1)">
@@ -279,7 +279,7 @@
 
         <div class="flex flex-row-ns flex-column pt3 justify-between items-center nav w-80">
           <div class="ml2 mr2 wrap mw4 h4 w-10-ns w-30 mt0-ns mt3">
-            <img class="prev" onclick="changeNav(-1,'navb')" src="img/left.png"></img>
+            <img class="prev"onclick="plusSlides(-1,2),bgchange(2)" src="img/left.png"></img>
           </div>
 
           <div class="flex flex-row-ns flex-column justify-between navb" id="navb1">
@@ -348,8 +348,9 @@
           </div>
 
           <div class="ml2 mr2 wrap mw4 h4 w-10-ns w-30 mt0-ns mt3">
-            <img class="next" onclick="changeNav(1,'navb')" src="img/right.png"></img>
+            <img class="next" onclick="plusSlides(1,2),bgchange(2)" src="img/right.png"></img>
           </div>
+          <img class="down" onclick="changeNav(-1,'nava')" src="img/down.png"></img>
 
         </div>
       </div>
@@ -370,21 +371,8 @@
 
       <!-- lightbox nav -->
 
-        <div class="flex flex-row-ns flex-column pt3 justify-between items-center nav w-80">
-          <div class="ml2 mr2 wrap mw4 h4 w-10-ns w-30 mt0-ns mt3">
-            <img class="prev" onclick="" src="img/left.png"></img>
-          </div>
-          <div class="flex flex-row-ns flex-column justify-between nav7" id="nav7a">
+        
 
-            <div class="ml2 mr2 wrap mw4 h4 w-100">
-              <img class="demo" src="img/digital/dump.jpg" onclick="current(1,7);bgchange(7)" alt="grinder and rectangular sticker reading dump him's information">
-            </div>
-          </div>
-          <div class="ml2 mr2 wrap mw4 h4 w-10-ns w-30 mt0-ns mt3">
-            <img class="next" onclick="" src="img/right.png"></img>
-          </div>
-
-          </div>
         </div>
       <div id="bg7" onclick="closebox(7)">
       </div>

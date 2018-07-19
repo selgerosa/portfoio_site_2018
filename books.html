@@ -211,7 +211,7 @@
 
         <div class="flex flex-row-ns flex-column pt3 justify-between items-center nav w-80">
           <div class="ml2 mr2 wrap mw4 h4 w-10-ns w-30 mt0-ns mt3">
-            <img class="prev" onclick="changeNav(-1,'navc')" src="img/left.png"></img>
+            <img class="prev"  onclick="plusSlides(-1,3),bgchange(3)" src="img/left.png"></img>
           </div>
 
           <div class="flex flex-row-ns flex-column justify-between navc" id="navc1">
@@ -280,10 +280,12 @@
           </div>
 
           <div class="ml2 mr2 wrap mw4 h4 w-10-ns w-30 mt0-ns mt3">
-            <img class="next" onclick="changeNav(1,'navc')" src="img/right.png"></img>
+            <img class="next"  onclick="plusSlides(1,3),bgchange(3)" src="img/right.png"></img>
           </div>
 
         </div>
+        <img class="down" onclick="changeNav(-1,'navc')" src="img/down.png"></img>
+
       </div>
       <div id="bg3" onclick="closebox(3)">
       </div>
@@ -329,7 +331,7 @@
 
           <div class="flex flex-row-ns flex-column pt3 justify-between items-center nav w-80">
             <div class="ml2 mr2 wrap mw4 h4 w-10-ns w-30 mt0-ns mt3">
-              <img class="prev" onclick="changeNav(-1,'navd')" src="img/left.png"></img>
+              <img class="prev"  onclick="plusSlides(-1,4),bgchange(4)" src="img/left.png"></img>
             </div>
 
             <div class="flex flex-row-ns flex-column justify-between navd" id="navd1">
@@ -364,10 +366,12 @@
             </div>
 
             <div class="ml2 mr2 wrap mw4 h4 w-10-ns w-30 mt0-ns mt3">
-              <img class="next" onclick="changeNav(1,'navd')" src="img/right.png"></img>
+              <img class="next"  onclick="plusSlides(1,4),bgchange(4)" src="img/right.png"></img>
             </div>
 
           </div>
+          <img class="down" onclick="changeNav(-1,'navd')" src="img/down.png"></img>
+
         </div>
         <div id="bg4" onclick="closebox(4)">
         </div>
@@ -437,7 +441,7 @@
 
             <div class="flex flex-row-ns flex-column pt3 justify-between items-center nav w-80">
               <div class="ml2 mr2 wrap mw4 h4 w-10-ns w-30 mt0-ns mt3">
-                <img class="prev" onclick="changeNav(-1,'nave')" src="img/left.png"></img>
+                <img class="prev" onclick="plusSlides(-1,5),bgchange(5)" src="img/left.png"></img>
               </div>
 
               <div class="flex flex-row-ns flex-column justify-between nave" id="nave1">
@@ -501,10 +505,12 @@
               </div>
 
               <div class="ml2 mr2 wrap mw4 h4 w-10-ns w-30 mt0-ns mt3">
-                <img class="next" onclick="changeNav(1,'nave')" src="img/right.png"></img>
+                <img class="next" onclick="plusSlides(1,5),bgchange(5)" src="img/right.png"></img>
               </div>
 
             </div>
+            <img class="down" onclick="changeNav(-1,'nave')" src="img/down.png"></img>
+
           </div>
           <div id="bg5" onclick="closebox(5)">
           </div>
@@ -546,7 +552,7 @@
 
               <div class="flex flex-row-ns flex-column pt3 justify-between items-center nav w-80">
                 <div class="ml2 mr2 wrap mw4 h4 w-10-ns w-30 mt0-ns mt3">
-                  <img class="prev" onclick="changeNav(-1,'navf')" src="img/left.png"></img>
+                  <img class="prev" onclick="plusSlides(-1,6),bgchange(6)" src="img/left.png"></img>
                 </div>
 
                 <div class="flex flex-row-ns flex-column justify-between navf" id="navf1">
@@ -578,10 +584,12 @@
                 </div>
 
                 <div class="ml2 mr2 wrap mw4 h4 w-10-ns w-30 mt0-ns mt3">
-                  <img class="next" onclick="changeNav(1,'navf')" src="img/right.png"></img>
+                  <img class="next" onclick="plusSlides(1,6),bgchange(6)" src="img/right.png"></img>
                 </div>
 
               </div>
+              <img class="down" onclick="changeNav(-1,'navf')" src="img/down.png"></img>
+
             </div>
             <div id="bg6" onclick="closebox(6)">
             </div>
