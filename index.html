@@ -69,7 +69,12 @@ gtag('config', 'UA-112773030-1');
 
   </head>
   <body>
-
+    <script>
+      showSites();
+      var indphrases = ["i'm a graphic designer", "i'm a web designer", "i know a lot about memes","i live for the drama","i'm a bookmaker","i want to work with you","i'm always redoing this site","i want to talk about the internet"]
+      var rand = Math.floor((Math.random() * indphrases.length));
+      document.getElementById("indabt").innerHTML = indphrases[rand];
+    </script>
     <div class="flex flex-column w-100">
     <nav class="w-20-l w-10-m w-100 fixed-ns tr-ns tc order-0 pt7-ns pt2 pl4-ns pl0 ">
       <li class="list">
@@ -518,12 +523,7 @@ gtag('config', 'UA-112773030-1');
       <p class="tc di">written, designed, and coded by selina gerosa ;)</p>
       <img src="img/const.gif" alt="under construction" class=" w-20-l w-30-m w-100 di pb3">
     </footer>
-    <script>
-      showSites();
-      var indphrases = ["i'm a graphic designer", "i'm a web designer", "i know a lot about memes","i live for the drama","i'm a bookmaker","i want to work with you","i'm always redoing this site","i want to talk about the internet"]
-      var rand = Math.floor((Math.random() * indphrases.length));
-      document.getElementById("indabt").innerHTML = indphrases[rand];
-    </script>
+
   </div>
   </body>
 </html>
