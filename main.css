@@ -1,5 +1,5 @@
 nav{z-index:1}
-#nava2,#navb2,#navb3,#navb4,#navc2,#navc3,#navc4,#navd2,#nave2,#nave3,#nave4,#navf2,#navg2,#navh2,#navh3,#navh4,.sites{display:none;}
+#nava2,#navb2,#navb3,#navb4,#navc2,#navc3,#navc4,#navd2,#nave2,#nave3,#nave4,#navf2,#navg2,#navh2,#navh3,#navh4,#navi2,.sites{display:none;}
 .modal,.slides,.slides1,.slides10,.slides2,.slides3,.slides4,.slides5,.slides6,.slides7,.slides8,.slides9{display:none;max-width:100%;height:60vh}
 .astyle,a{font-family:'Playfair Display',serif;color:Green}
 a:hover,.astyle:hover{text-decoration:line-through;cursor:crosshair}
