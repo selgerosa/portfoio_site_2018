@@ -55,7 +55,7 @@
 
     <!-- sheets and js -->
     <link rel="stylesheet" href="css/tachyons.min.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Dosis|Playfair+Display:900" rel="stylesheet">
     <script src="javascript/main.js"></script>
   </head>
@@ -63,540 +63,90 @@
   <body>
 
     <div class="flex flex-column w-100">
-    <nav class="w-20-l w-10-m w-100 fixed-ns tr-ns tc order-0 pt7-ns pt2 pl4-ns pl0">
-      <ul class="list">
-        <li class=" f5-m f3-l f4 mt1 mb4 pl0 dib db-ns">
-          <a href="index.html" class="link">home</a>
-        </li>
-        <li class=" f5-m f3-l f4 mt1 mb4 pl0 dib db-ns">
-          <a href="digital.html" class="link">digital</a>
-        </li>
-        <li class=" f5-m f3-l f4 mt1 mb4 pl0 dib db-ns">
-          <a href="instal.html" class="link">installation</a>
-        </li>
-        <li class=" f5-m f3-l f4 mt1 mb4 pl0 dib db-ns">
-          <a href="about.html" class="link">about</a>
-        </li>
-        <li class=" f5-m f3-l f4 mt1 mb4 pl0 dib db-ns">
-          <a href="contact.html" class="link">contact</a>
-        </li>
-
-      </ul>
-    </nav>
+      <nav class="fixed-ns tr-ns tc pt7-ns pt2 pl5-l pl3-m pl0">
+        <ul class="list pl0">
+          <li class=" f3-ns f4 mt1 mb4 pl0 dib db-ns">
+            <a href="index.html" class="link">home</a>
+          </li>
+          <li class=" f3-ns f4 mt1 mb4 pl2 pl0-ns dib db-ns">
+            <a href="digital.html" class="link">digital</a>
+          </li>
+          <li class=" f3-ns f4 mt1 mb4 pl2 pl0-ns dib db-ns">
+            <a href="books.html" class="link">books</a>
+          </li>
+          <li class=" f3-ns f4 mt1 mb4 pl2 pl0-ns dib db-ns">
+            <a href="instal.html" class="link">installation</a>
+          </li>
+          <li class=" f3-ns f4 mt1 mb4 pl2 pl0-ns dib db-ns">
+            <a href="about.html" class="link">about</a>
+          </li>
+          <li class=" f3-ns f4 mt1 mb4 pl2 pl0-ns dib db-ns">
+            <a href="contact.html" class="link">contact</a>
+          </li>
+        </ul>
+      </nav>
 
     <a href="https://selinas-site-experiments.netlify.com/sol/splash.html" class="sites"><img src="img/x.gif" alt="'x' with vertical moving black and white stripes"></a>
     <a href="https://heartdogheadquarters.online" class="sites"><img src="img/run.gif" alt="running heartdog"></a>
     <a href="https://selinas-site-experiments.netlify.com/weather/index.html" class="sites"><img src="img/1.gif" alt="running water"></a>
-    <a href="https://selinas-site-experiments.netlify.com/inspreel/index.html" class="sites"><img src="img/7.gif" alt="progresssively compressing thoughtful emoji"></a>
+    <a href="https://selinas-site-experiments.netlify.com/insp/index.html" class="sites"><img src="img/7.gif" alt="progresssively compressing thoughtful emoji"></a>
     <a href="https://selinas-site-experiments.netlify.com/tal/index.html" class="sites"><img src="img/or.gif" alt="yellow and red 'or'"></a>
     <a href="https://selinas-site-experiments.netlify.com/gifs/splash.html" class="sites"><img src="img/8.gif" alt="small sparkly gif"></a>
 
 
     <div class="flex flex-column justify-end items-end">
-      <header class="flex flex-column justify-end w-100 order-1-ns order-0 bb bw1 mt3">
-        <h1 class="header tr m0 pr4-ns pr3 pb2">books</h1>
+      <header class="flex flex-column justify-end w-100 bb bw1 mt3">
+        <h1 class="header tr m0 pr4-ns pr2 pl0-ns pl2 pb2">books</h1>
       </header>
-<!-- content -->
-      <div class="flex flex-column order-2 w-70-l w-80-m w-100 bl-ns bw1-ns pt5">
-        <div class="flex flex-row-ns flex-column justify-between ma4">
-          <img src="img/books/talk1.jpg" alt="talk lk u mean it cover, all white with small title in gold capcha-style" class="w-90 w-40-ns w-50-m mr3-m ba bw1 pa2" onclick="openbox(3);current(1,3);bgchange(3)">
-          <div class="flex flex-column pa3 ba bw1 w-90-ns w-100 w-40-l w-50-m ml3-m mt2 mt0-ns">
-            <h2 class="mt0">talk lk u mean it</h2>
-            <p class="mt0 mb0">talk lk u mean it is a book about the language of the web aka webspeak and why it matters. the history of webspeak! 1337! acronymns! emojis n more! this book is available to read 4 free online @<a href="http://talklkumeanit.com" class="link">http://talklku&#8203;meanit.com</a> ps: i did the hardcover case-in binding for this book</p>
-            <p class="mt1 mb0">senior thesis</p>
-            <p class=" mb0">2018</p>
+      <!-- content -->
+      <div class="flex flex-column w-80-ns w-100 bl-ns bw1-ns pt4">
+
+        <div class="flex flex-column justify-between ma4-ns mt4 ba bw1">
+          <div class="flex align-center justify-center">
+            <a href="talk.html">
+              <img src="img/books/talk15.jpg" class="bb bw1 abtlink" alt="thesis installation closeup">
+            </a>
+          </div>
+          <div class="pl2 pr2 tc">
+            <h2><a href="" class="link">#sticker</a>, <a href="" class="link">#website</a>, <a href="instal.html" class="link">#installation</a>, <a href="books.html" class="link">#book</a></h2> <!-- TODO: add link system -->
           </div>
         </div>
 
-        <div class="flex flex-row-ns flex-column justify-between ma4">
-          <img src="img/books/ass1.jpg" alt="book cover showing screencapture of wikihow search and various emojis" class="w-90 w-40-ns w-50-m mr3-m ba bw1 pa2" onclick="openbox(4);current(1,4);bgchange(4)">
-          <div class="flex flex-column pa3 ba bw1 w-90-ns w-100 w-40-l w-50-m ml3-m mt2 mt0-ns">
-            <h2 class="mt0">&#x1F479;</h2>
-            <p class="mt0 mb0">this book is a choose-your-own-adventure style narrative using wikihow imagery, memes, and emojis about dealing with assholes. will you successfully navigate the situation or will you in turn become an asshole? ps: this book is coptic stitch bound</p>
-            <p class="mt1 mb0">senior graphic design</p>
-            <p class=" mb0">2018</p>
+        <div class="flex flex-column justify-between ma4-ns mt4 ba bw1">
+          <div class="flex align-center justify-center">
+            <a href="deal.html">
+              <img src="img/books/deal8.png" class="bb bw1 abtlink" alt="">
+            </a>
+          </div>
+          <div class="pl2 pr2 tc">
+            <h2><a href="books.html" class="link">#book</a></h2> <!-- TODO: add link system -->
           </div>
         </div>
 
-        <div class="flex flex-row-ns flex-column justify-between ma4">
-          <img src="img/books/meme1.jpg" alt="front cover reads 'the meme textbook' on a cat impact meme" class="w-90 w-40-ns w-50-m mr3-m ba bw1 pa2" onclick="openbox(5);current(1,5);bgchange(5)">
-          <div class="flex flex-column pa3 ba bw1 w-90-ns w-100 w-40-l w-50-m ml3-m mt2 mt0-ns">
-            <h2 class="mt0">meme textbook</h2>
-            <p class="mt0 mb0">inspired by my own fascination with contemporary internet culture, this project is a textbook about the chronology, dichotomy, and impact of memes and meme culture. read the full textbook @<a href="http://joom.ag/P8SW" class="link">http://joom.ag/P8SW</a> this project is currently being updated! you can read the new chapter/check up on my progress @ <a href="https://docs.google.com/document/d/166--5-Uzrvyszp_Y1SIIOhvd5acMWz0jCzzUhDDC1zI/edit?usp=sharing" class="link">this google doc</a></p>
-            <p class="mt1 mb0">junior graphic design</p>
-            <p class=" mb0">2018</p>
+        <div class="flex flex-column justify-between ma4-ns mt4 ba bw1">
+          <div class="flex align-center justify-center">
+            <a href="meme.html">
+              <img src="img/books/meme14.png" class="bb bw1 abtlink" alt="spread of narrative trail end">
+            </a>
+          </div>
+          <div class="pl2 pr2 tc">
+            <h2><a href="books.html" class="link">#book</a></h2> <!-- TODO: add link system -->
           </div>
         </div>
 
-        <div class="flex flex-row-ns flex-column justify-between ma4">
-          <img src="img/books/gazebo1.jpg" alt="book cover, front of old flip-for-keyboard phone" class="w-90 w-40-ns w-50-m mr3-m ba bw1 pa2" onclick="openbox(6);current(1,6);bgchange(6)">
-          <div class="flex flex-column pa3 ba bw1 w-90-ns w-100 w-40-l w-50-m ml3-m mt2 mt0-ns">
-            <h2 class="mt0">gazebo</h2>
-            <p class="mt0 mb0">this book is a retrospective of my friend group's text chat from high school and now and how our conversations and hang outs have changed. fun fact: the cover and back cover are my actual phone from 2012. the front screen was broken so i put stickers on it instead</p>
-            <p class="mt1 mb0">junior typography</p>
-            <p class=" mb0">2017</p>
+        <div class="flex flex-column justify-between ma4-ns mt4 ba bw1">
+          <div class="flex align-center justify-center">
+            <a href="gazebo.html">
+              <img src="img/books/gazebo7.png" class="bb bw1 abtlink" alt="">
+            </a>
+          </div>
+          <div class="pl2 pr2 tc">
+            <h2><a href="books.html" class="link">#book</a></h2> <!-- TODO: add link system -->
           </div>
         </div>
 
       </div>
     </div>
-
-    <!--  lightbox 3 -->
-    <div id="modal3" class="modal flex justify-center items-center pa5 pt4 wrap">
-      <div class="modal-content flex justify-center items-center flex-column w-100 w-80-ns">
-
-        <div class="flex  items-center justify-center mt4 mb4 pt4 pb4 w-70-ns">
-          <div class="slides3">
-            <img src="img/books/talk1.jpg" alt="talk lk u mean it cover, all white with small title in gold capcha-style">
-          </div>
-
-          <div class="slides3">
-            <img src="img/books/talk12.jpg" alt="leetspeak intro spread">
-          </div>
-
-          <div class="slides3">
-            <img src="img/books/talk2.jpg" alt="spread about leet speak grammar">
-          </div>
-
-          <div class="slides3">
-            <img src="img/books/talk3.jpg" alt="spread about lolcats">
-          </div>
-
-          <div class="slides3">
-            <img src="img/books/talk13.jpg" alt="spread explaining doge meme">
-          </div>
-
-          <div class="slides3">
-            <img src="img/books/talk4.jpg" alt="spread about 'lol'">
-          </div>
-
-          <div class="slides3">
-            <img src="img/books/talk5.jpg" alt="spread with ellipsis title">
-          </div>
-
-          <div class="slides3">
-            <img src="img/books/talk6.jpg" alt="spread about tildes (~)">
-          </div>
-
-          <div class="slides3">
-            <img src="img/books/talk7.jpg" alt="spread about capitalization">
-          </div>
-
-          <div class="slides3">
-            <img src="img/books/talk8.jpg" alt="spread of exerpt of emoji list">
-          </div>
-
-          <div class="slides3">
-            <img src="img/books/talk9.jpg" alt="full spread image of jpeg compressed prescriptivism meme">
-          </div>
-
-          <div class="slides3">
-            <img src="img/books/talk10.jpg" alt="spread of forum transcript">
-          </div>
-
-          <div class="slides3">
-            <img src="img/books/talk11.jpg" alt="jpeg compressed google image search of abstract memes, used as decorative endpage">
-          </div>
-
-          <div class="slides3">
-            <img src="img/books/talk14.jpg" alt="thesis installation image">
-          </div>
-
-          <div class="slides3">
-            <img src="img/books/talk15.jpg" alt="thesis installation closeup">
-          </div>
-
-
-        </div>
-
-
-    <!-- lightbox nav -->
-
-        <div class="flex flex-row-ns flex-column pt3 justify-between items-center w-80">
-          <div class="ml2 mr2 wrap mw4 h4 w-10-ns w-30 mt0-ns mt3">
-            <img class="prev"  onclick="plusSlides(-1,3),bgchange(3)" src="img/left.png"></img>
-          </div>
-
-          <div class="flex flex-row-ns flex-column justify-between navc hide" id="navc1">
-
-            <div class="ml2 mr2 wrap mw4 h4 w-20-ns w-100">
-              <img class="demo" src="img/books/talk1.jpg" onclick="current(1,3);bgchange(3)" alt="talk lk u mean it cover, all white with small title in gold capcha-style">
-            </div>
-            <div class="ml2 mr2 wrap mw4 h4 w-20-ns w-100">
-              <img class="demo" src="img/books/talk12.jpg" onclick="current(12,3);bgchange(3)" alt="leetspeak intro spread">
-            </div>
-            <div class="ml2 mr2 wrap mw4 h4 w-20-ns w-100">
-              <img class="demo" src="img/books/talk2.jpg" onclick="current(2,3);bgchange(3)" alt="spread about leet speak">
-            </div>
-            <div class="ml2 mr2 wrap mw4 h4 w-20-ns w-100">
-              <img class="demo" src="img/books/talk3.jpg" onclick="current(3,3);bgchange(3)" alt="spread about lolcats">
-            </div>
-
-          </div>
-
-          <div class="flex flex-row-ns flex-column justify-between navc hide" id="navc2">
-
-            <div class="ml2 mr2 wrap mw4 h4 w-20-ns w-100">
-              <img class="demo" src="img/books/talk13.jpg" onclick="current(13,3);bgchange(3)" alt="spread explaining doge meme">
-            </div>
-            <div class="ml2 mr2 wrap mw4 h4 w-20-ns w-100">
-              <img class="demo" src="img/books/talk4.jpg" onclick="current(4,3);bgchange(3)" alt="spread about 'lol'">
-            </div>
-            <div class="ml2 mr2 wrap mw4 h4 w-20-ns w-100">
-              <img class="demo" src="img/books/talk5.jpg" onclick="current(5,3);bgchange(3)" alt="spread with ellipsis title">
-            </div>
-            <div class="ml2 mr2 wrap mw4 h4 w-20-ns w-100">
-              <img class="demo" src="img/books/talk6.jpg" onclick="current(6,3);bgchange(3)" alt="spread about tildes (~)">
-            </div>
-
-          </div>
-
-          <div class="flex flex-row-ns flex-column justify-between navc hide" id="navc3">
-
-            <div class="ml2 mr2 wrap mw4 h4 w-20-ns w-100">
-              <img class="demo" src="img/books/talk7.jpg" onclick="current(7,3);bgchange(3)" alt="spread about capitalization">
-            </div>
-            <div class="ml2 mr2 wrap mw4 h4 w-20-ns w-100">
-              <img class="demo" src="img/books/talk8.jpg" onclick="current(8,3);bgchange(3)" alt="spread of exerpt of emoji list">
-            </div>
-            <div class="ml2 mr2 wrap mw4 h4 w-20-ns w-100">
-              <img class="demo" src="img/books/talk9.jpg" onclick="current(9,3);bgchange(3)" alt="full spread image of jpeg compressed prescriptivism meme">
-            </div>
-            <div class="ml2 mr2 wrap mw4 h4 w-20-ns w-100">
-              <img class="demo" src="img/books/talk10.jpg" onclick="current(10,3);bgchange(3)" alt="spread of forum transcript">
-            </div>
-
-          </div>
-
-          <div class="flex flex-row-ns flex-column justify-between navc hide" id="navc4">
-
-            <div class="ml2 mr2 wrap mw4 h4 w-30-ns w-100">
-              <img class="demo" src="img/books/talk11.jpg" onclick="current(11,3);bgchange(3)" alt="jpeg compressed google image search of abstract memes, used as decorative endpage">
-            </div>
-            <div class="ml2 mr2 wrap mw4 h4 w-30-ns w-100">
-              <img class="demo" src="img/books/talk14.jpg" onclick="current(14,3);bgchange(3)" alt="thesis installation image">
-            </div>
-            <div class="ml2 mr2 wrap mw4 h4 w-30-ns w-100">
-              <img class="demo" src="img/books/talk15.jpg" onclick="current(15,3);bgchange(3)" alt="thesis installation closeup">
-            </div>
-
-          </div>
-
-          <div class="ml2 mr2 wrap mw4 h4 w-10-ns w-30 mt0-ns mt3">
-            <img class="next"  onclick="plusSlides(1,3),bgchange(3)" src="img/right.png"></img>
-          </div>
-
-        </div>
-        <img class="down" onclick="changeNav(-1,'navc')" src="img/down.png"></img>
-
-      </div>
-      <div id="bg3" onclick="closebox(3)">
-      </div>
-      </div>
-
-      <!--  lightbox 4 -->
-      <div id="modal4" class="modal flex justify-center items-center pa5 pt4 wrap">
-        <div class="modal-content flex justify-center items-center flex-column w-100 w-80-ns">
-
-          <div class="flex  items-center justify-center mt4 mb4 pt4 pb4 w-70-ns">
-            <div class="slides4">
-              <img src="img/books/ass1.jpg" alt="book cover showing screencapture of wikihow search and various emojis">
-            </div>
-
-            <div class="slides4">
-              <img src="img/books/ass2.jpg" alt="spread with large text and a lot of emojis, representing chaos and anger">
-            </div>
-
-            <div class="slides4">
-              <img src="img/books/ass3.jpg" alt="spread of narrative trail end">
-            </div>
-
-            <div class="slides4">
-              <img src="img/books/ass4.jpg" alt="spread with only text">
-            </div>
-
-            <div class="slides4">
-              <img src="img/books/ass5.jpg" alt="spread with fullbleed rage pepe meme">
-            </div>
-
-            <div class="slides4">
-              <img src="img/books/ass6.jpg" alt="spread of narrative trail end">
-            </div>
-
-            <div class="slides4">
-              <img src="img/books/ass7.jpg" alt="backcover showing wikihow entry for trolling in forums">
-            </div>
-
-          </div>
-
-
-      <!-- lightbox nav -->
-
-          <div class="flex flex-row-ns flex-column pt3 justify-between items-center w-80">
-            <div class="ml2 mr2 wrap mw4 h4 w-10-ns w-30 mt0-ns mt3">
-              <img class="prev"  onclick="plusSlides(-1,4),bgchange(4)" src="img/left.png"></img>
-            </div>
-
-            <div class="flex flex-row-ns flex-column justify-between navd hide" id="navd1">
-
-              <div class="ml2 mr2 wrap mw4 h4 w-20-ns w-100">
-                <img class="demo" src="img/books/ass1.jpg" onclick="current(1,4);bgchange(4)" alt="book cover showing screencapture of wikihow search and various emojis">
-              </div>
-              <div class="ml2 mr2 wrap mw4 h4 w-20-ns w-100">
-                <img class="demo" src="img/books/ass2.jpg" onclick="current(2,4);bgchange(4)" alt="spread with large text and a lot of emojis, representing chaos and anger">
-              </div>
-              <div class="ml2 mr2 wrap mw4 h4 w-20-ns w-100">
-                <img class="demo" src="img/books/ass3.jpg" onclick="current(3,4);bgchange(4)" alt="spread of narrative trail end">
-              </div>
-              <div class="ml2 mr2 wrap mw4 h4 w-20-ns w-100">
-                <img class="demo" src="img/books/ass4.jpg" onclick="current(4,4);bgchange(4)" alt="spread with ony text">
-              </div>
-
-            </div>
-
-            <div class="flex flex-row-ns flex-column justify-between navd hide" id="navd2">
-
-              <div class="ml2 mr2 wrap mw4 h4 w-30-ns w-100">
-                <img class="demo" src="img/books/ass5.jpg" onclick="current(5,4);bgchange(4)" alt="spread with fullbleed rage pepe meme">
-              </div>
-              <div class="ml2 mr2 wrap mw4 h4 w-30-ns w-100">
-                <img class="demo" src="img/books/ass6.jpg" onclick="current(6,4);bgchange(4)" alt="spread of narrative trail end">
-              </div>
-              <div class="ml2 mr2 wrap mw4 h4 w-30-ns w-100">
-                <img class="demo" src="img/books/ass7.jpg" onclick="current(7,4);bgchange(4)" alt="backcover showing wikihow entry for trolling in forums">
-              </div>
-
-            </div>
-
-            <div class="ml2 mr2 wrap mw4 h4 w-10-ns w-30 mt0-ns mt3">
-              <img class="next"  onclick="plusSlides(1,4),bgchange(4)" src="img/right.png"></img>
-            </div>
-
-          </div>
-          <img class="down" onclick="changeNav(-1,'navd')" src="img/down.png"></img>
-
-        </div>
-        <div id="bg4" onclick="closebox(4)">
-        </div>
-        </div>
-
-        <!--  lightbox 5 -->
-        <div id="modal5" class="modal flex justify-center items-center pa5 pt4 wrap">
-          <div class="modal-content flex justify-center items-center flex-column w-100 w-80-ns">
-
-            <div class="flex  items-center justify-center mt4 mb4 pt4 pb4 w-70-ns">
-              <div class="slides5">
-                <img src="img/books/meme1.jpg" alt="front cover reads 'the meme textbook' on a cat impact meme">
-              </div>
-
-              <div class="slides5">
-                <img src="img/books/meme2.jpg" alt="front cover of book one abstract blue light">
-              </div>
-
-              <div class="slides5">
-                <img src="img/books/meme4.jpg" alt="spread comparing meme and traditional art with fibonacci spiral">
-              </div>
-
-              <div class="slides5">
-                <img src="img/books/meme5.jpg" alt="image spread about first memes">
-              </div>
-
-              <div class="slides5">
-                <img src="img/books/meme6.jpg" alt="full spread of rick roll meme">
-              </div>
-
-              <div class="slides5">
-                <img src="img/books/meme3.jpg" alt="back cover of book one reveals the shoop da woop meme">
-              </div>
-
-              <div class="slides5">
-                <img src="img/books/meme8.jpg" alt="front cover of book two with cat">
-              </div>
-
-              <div class="slides5">
-                <img src="img/books/meme9.jpg" alt="spread about lolcats">
-              </div>
-
-              <div class="slides5">
-                <img src="img/books/meme10.jpg" alt="spread of rare pepes">
-              </div>
-
-              <div class="slides5">
-                <img src="img/books/meme11.jpg" alt="spread about loss.jpg meme">
-              </div>
-
-              <div class="slides5">
-                <img src="img/books/meme12.jpg" alt="spread of loss.jpg images">
-              </div>
-
-              <div class="slides5">
-                <img src="img/books/meme7.jpg" alt="back cover of book two reading sup bro in impact meme">
-              </div>
-
-              <div class="slides5">
-                <img src="img/books/meme13.jpg" alt="back cover of meme textbook, closeup of succ meme">
-              </div>
-
-            </div>
-
-
-        <!-- lightbox nav -->
-
-            <div class="flex flex-row-ns flex-column pt3 justify-between items-center w-80">
-              <div class="ml2 mr2 wrap mw4 h4 w-10-ns w-30 mt0-ns mt3">
-                <img class="prev" onclick="plusSlides(-1,5),bgchange(5)" src="img/left.png"></img>
-              </div>
-
-              <div class="flex flex-row-ns flex-column justify-between nave hide" id="nave1">
-
-                <div class="ml2 mr2 wrap mw4 h4 w-20-ns w-100">
-                  <img class="demo" src="img/books/meme1.jpg" onclick="current(1,5);bgchange(5)" alt="front cover reads 'the meme textbook' on a cat impact meme">
-                </div>
-                <div class="ml2 mr2 wrap mw4 h4 w-20-ns w-100">
-                  <img class="demo" src="img/books/meme2.jpg" onclick="current(2,5);bgchange(5)" alt="front cover of book one abstract blue light">
-                </div>
-                <div class="ml2 mr2 wrap mw4 h4 w-20-ns w-100">
-                  <img class="demo" src="img/books/meme5.jpg" onclick="current(5,5);bgchange(5)" alt="image spread about first memes">
-                </div>
-                <div class="ml2 mr2 wrap mw4 h4 w-20-ns w-100">
-                  <img class="demo" src="img/books/meme4.jpg" onclick="current(4,5);bgchange(5)" alt="spread comparing meme and traditional art with fibonacci spiral">
-                </div>
-
-              </div>
-
-              <div class="flex flex-row-ns flex-column justify-between nave hide" id="nave2">
-
-                <div class="ml2 mr2 wrap mw4 h4 w-30-ns w-100">
-                  <img class="demo" src="img/books/meme6.jpg" onclick="current(6,5);bgchange(5)" alt="full spread of rick roll meme">
-                </div>
-                <div class="ml2 mr2 wrap mw4 h4 w-30-ns w-100">
-                  <img class="demo" src="img/books/meme3.jpg" onclick="current(3,5);bgchange(5)" alt="back cover of book one reveals the shoop da woop meme">
-                </div>
-                <div class="ml2 mr2 wrap mw4 h4 w-30-ns w-100">
-                  <img class="demo" src="img/books/meme8.jpg" onclick="current(7,5);bgchange(5)" alt="front cover of book two with cat">
-                </div>
-
-
-              </div>
-
-              <div class="flex flex-row-ns flex-column justify-between nave hide" id="nave3">
-
-                <div class="ml2 mr2 wrap mw4 h4 w-30-ns w-100">
-                  <img class="demo" src="img/books/meme9.jpg" onclick="current(9,5);bgchange(5)" alt="spread about lolcats">
-                </div>
-                <div class="ml2 mr2 wrap mw4 h4 w-30-ns w-100">
-                  <img class="demo" src="img/books/meme10.jpg" onclick="current(10,5);bgchange(5)" alt="spread of rare pepes">
-                </div>
-                <div class="ml2 mr2 wrap mw4 h4 w-30-ns w-100">
-                  <img class="demo" src="img/books/meme11.jpg" onclick="current(11,5);bgchange(5)" alt="spread about loss.jpg meme">
-                </div>
-
-              </div>
-
-              <div class="flex flex-row-ns flex-column justify-between nave hide" id="nave4">
-
-                <div class="ml2 mr2 wrap mw4 h4 w-30-ns w-100">
-                  <img class="demo" src="img/books/meme12.jpg" onclick="current(12,5);bgchange(5)" alt="spread of loss.jpg images">
-                </div>
-                <div class="ml2 mr2 wrap mw4 h4 w-30-ns w-100">
-                  <img class="demo" src="img/books/meme7.jpg" onclick="current(8,5);bgchange(5)" alt="back cover of book two reading sup bro in impact meme">
-                </div>
-                <div class="ml2 mr2 wrap mw4 h4 w-30-ns w-100">
-                  <img class="demo" src="img/books/meme13.jpg" onclick="current(13,5);bgchange(5)" alt="back cover of meme textbook, closeup of succ meme">
-                </div>
-
-              </div>
-
-              <div class="ml2 mr2 wrap mw4 h4 w-10-ns w-30 mt0-ns mt3">
-                <img class="next" onclick="plusSlides(1,5),bgchange(5)" src="img/right.png"></img>
-              </div>
-
-            </div>
-            <img class="down" onclick="changeNav(-1,'nave')" src="img/down.png"></img>
-
-          </div>
-          <div id="bg5" onclick="closebox(5)">
-          </div>
-          </div>
-
-          <!--  lightbox 6 -->
-          <div id="modal6" class="modal flex justify-center items-center pa5 pt4 wrap">
-            <div class="modal-content flex justify-center items-center flex-column w-100 w-80-ns">
-
-              <div class="flex  items-center justify-center mt4 mb4 pt4 pb4 w-70-ns">
-                <div class="slides6">
-                  <img src="img/books/gazebo1.jpg" alt="book cover, front of old flip-for-keyboard phone">
-                </div>
-
-                <div class="slides6">
-                  <img src="img/books/gazebo2.jpg" alt="small handwritten type of facebook messages with stickers for icons, over hand drawn gazebo">
-                </div>
-
-                <div class="slides6">
-                  <img src="img/books/gazebo3.jpg" alt="center spread of openned flipphone">
-                </div>
-
-                <div class="slides6">
-                  <img src="img/books/gazebo4.jpg" alt="small handwritten type of facebook messages with stickers for icons, over hand drawn car in parking lot">
-                </div>
-
-                <div class="slides6">
-                  <img src="img/books/gazebo5.jpg" alt="all black spread with facebook messages and icons">
-                </div>
-
-                <div class="slides6">
-                  <img src="img/books/gazebo6.jpg" alt="back cover, back of phone">
-                </div>
-
-              </div>
-
-
-          <!-- lightbox nav -->
-
-              <div class="flex flex-row-ns flex-column pt3 justify-between items-center w-80">
-                <div class="ml2 mr2 wrap mw4 h4 w-10-ns w-30 mt0-ns mt3">
-                  <img class="prev" onclick="plusSlides(-1,6),bgchange(6)" src="img/left.png"></img>
-                </div>
-
-                <div class="flex flex-row-ns flex-column justify-between navf hide" id="navf1">
-
-                  <div class="ml2 mr2 wrap mw4 h4 w-30-ns w-100">
-                    <img class="demo" src="img/books/gazebo1.jpg" onclick="current(1,6);bgchange(6)" alt="book cover, front of old flip-for-keyboard phone">
-                  </div>
-                  <div class="ml2 mr2 wrap mw4 h4 w-30-ns w-100">
-                    <img class="demo" src="img/books/gazebo2.jpg" onclick="current(2,6);bgchange(6)" alt="small handwritten type of facebook messages with stickers for icons, over hand drawn gazebo">
-                  </div>
-                  <div class="ml2 mr2 wrap mw4 h4 w-30-ns w-100">
-                    <img class="demo" src="img/books/gazebo3.jpg" onclick="current(3,6);bgchange(6)" alt="center spread of openned flipphone">
-                  </div>
-
-                </div>
-
-                <div class="flex flex-row-ns flex-column justify-between navf hide" id="navf2">
-
-                  <div class="ml2 mr2 wrap mw4 h4 w-30-ns w-100">
-                    <img class="demo" src="img/books/gazebo4.jpg" onclick="current(4,6);bgchange(6)" alt="small handwritten type of facebook messages with stickers for icons, over hand drawn car in parking lot">
-                  </div>
-                  <div class="ml2 mr2 wrap mw4 h4 w-30-ns w-100">
-                    <img class="demo" src="img/books/gazebo5.jpg" onclick="current(5,6);bgchange(6)" alt="all black spread with facebook messages and icons">
-                  </div>
-                  <div class="ml2 mr2 wrap mw4 h4 w-30-ns w-100">
-                    <img class="demo" src="img/books/gazebo6.jpg" onclick="current(6,6);bgchange(6)" alt="back cover, back of phone">
-                  </div>
-
-                </div>
-
-                <div class="ml2 mr2 wrap mw4 h4 w-10-ns w-30 mt0-ns mt3">
-                  <img class="next" onclick="plusSlides(1,6),bgchange(6)" src="img/right.png"></img>
-                </div>
-
-              </div>
-              <img class="down" onclick="changeNav(-1,'navf')" src="img/down.png"></img>
-
-            </div>
-            <div id="bg6" onclick="closebox(6)">
-            </div>
-            </div>
 
       <footer class="bg-black-10 flex flex-column justify-around w-100">
         <p class="tc di">written, designed, and coded by selina gerosa ;)</p>
