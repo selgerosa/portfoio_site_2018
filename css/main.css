@@ -32,21 +32,7 @@ p {
 .wrap{
   overflow:hidden
 }
-.modal{
-  left:0;
-  position:fixed;
-  top:0;
-  height:100vh;
-  overflow:auto;
-  z-index:2
-}
-.modal-content{
-  position:relative;
-  margin:0;
-  padding:0;
-  max-height:95vh;
-  z-index:5
-}
+
 .imgdiv1 {
   background-image:url(../img/bgs/sky1.gif);
 }
