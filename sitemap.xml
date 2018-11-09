@@ -8,89 +8,149 @@
 
 
 <url>
-  <loc>http://selinagerosa.com/</loc>
-  <lastmod>2018-06-30T19:58:21+00:00</lastmod>
+  <loc>https://selinagerosa.com/</loc>
+  <lastmod>2018-11-09T15:53:44+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://selinagerosa.com/books.html</loc>
-  <lastmod>2018-06-30T19:58:21+00:00</lastmod>
+  <loc>https://selinagerosa.com/index.html</loc>
+  <lastmod>2018-11-09T15:53:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://selinagerosa.com/digital.html</loc>
-  <lastmod>2018-06-30T19:58:21+00:00</lastmod>
+  <loc>https://selinagerosa.com/digital.html</loc>
+  <lastmod>2018-11-09T15:53:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://selinagerosa.com/instal.html</loc>
-  <lastmod>2018-06-30T19:58:21+00:00</lastmod>
+  <loc>https://selinagerosa.com/books.html</loc>
+  <lastmod>2018-11-09T15:53:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://selinagerosa.com/about.html</loc>
-  <lastmod>2018-06-30T19:58:21+00:00</lastmod>
+  <loc>https://selinagerosa.com/instal.html</loc>
+  <lastmod>2018-11-09T15:53:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://selinagerosa.com/contact.html</loc>
-  <lastmod>2018-06-30T19:58:21+00:00</lastmod>
+  <loc>https://selinagerosa.com/about.html</loc>
+  <lastmod>2018-11-09T15:53:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://selinagerosa.com/sol/splash.html</loc>
-  <lastmod>2018-06-30T19:58:21+00:00</lastmod>
+  <loc>https://selinagerosa.com/contact.html</loc>
+  <lastmod>2018-11-09T15:53:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://selinagerosa.com/weather/index.html</loc>
-  <lastmod>2018-06-30T19:58:21+00:00</lastmod>
+  <loc>https://selinagerosa.com/cooper.html</loc>
+  <lastmod>2018-11-09T15:53:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://selinagerosa.com/inspreel/index.html</loc>
-  <lastmod>2018-06-30T19:58:21+00:00</lastmod>
+  <loc>https://selinagerosa.com/site.html</loc>
+  <lastmod>2018-11-09T15:53:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://selinagerosa.com/tal/index.html</loc>
-  <lastmod>2018-06-30T19:58:21+00:00</lastmod>
+  <loc>https://selinagerosa.com/continuum.html</loc>
+  <lastmod>2018-11-09T15:53:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://selinagerosa.com/gifs/splash.html</loc>
-  <lastmod>2018-06-30T19:58:21+00:00</lastmod>
+  <loc>https://selinagerosa.com/brand.html</loc>
+  <lastmod>2018-11-09T15:53:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://selinagerosa.com/index.html</loc>
-  <lastmod>2018-06-30T19:58:21+00:00</lastmod>
+  <loc>https://selinagerosa.com/sticker.html</loc>
+  <lastmod>2018-11-09T15:53:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://selinagerosa.com/talk.html</loc>
+  <lastmod>2018-11-09T15:53:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://selinagerosa.com/print.html</loc>
+  <lastmod>2018-11-09T15:53:44+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://selinagerosa.com/tal/lose.html</loc>
-  <lastmod>2018-06-30T19:58:21+00:00</lastmod>
+  <loc>https://selinagerosa.com/dump.html</loc>
+  <lastmod>2018-11-09T15:53:44+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://selinagerosa.com/gifs/index.html</loc>
-  <lastmod>2018-06-30T19:58:21+00:00</lastmod>
+  <loc>https://selinagerosa.com/illustration.html</loc>
+  <lastmod>2018-11-09T15:53:44+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://selinagerosa.com/gifs/fave.html</loc>
-  <lastmod>2018-06-30T19:58:21+00:00</lastmod>
-  <priority>0.51</priority>
+  <loc>https://selinagerosa.com/fisher.html</loc>
+  <lastmod>2018-11-09T15:53:44+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://selinagerosa.com/gifs/about.html</loc>
-  <lastmod>2018-06-30T19:58:21+00:00</lastmod>
-  <priority>0.51</priority>
+  <loc>https://selinagerosa.com/inspreel.html</loc>
+  <lastmod>2018-11-09T15:53:44+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://selinagerosa.com/gifs/submit.html</loc>
-  <lastmod>2018-06-30T19:58:21+00:00</lastmod>
-  <priority>0.51</priority>
+  <loc>https://selinagerosa.com/video.html</loc>
+  <lastmod>2018-11-09T15:53:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://selinagerosa.com/deal.html</loc>
+  <lastmod>2018-11-09T15:53:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://selinagerosa.com/meme.html</loc>
+  <lastmod>2018-11-09T15:53:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://selinagerosa.com/gazebo.html</loc>
+  <lastmod>2018-11-09T15:53:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://selinagerosa.com/forget.html</loc>
+  <lastmod>2018-11-09T15:53:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://selinagerosa.com/zine.html</loc>
+  <lastmod>2018-11-09T15:53:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://selinagerosa.com/trauma.html</loc>
+  <lastmod>2018-11-09T15:53:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://selinagerosa.com/vinyl.html</loc>
+  <lastmod>2018-11-09T15:53:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://selinagerosa.com/cactus.html</loc>
+  <lastmod>2018-11-09T15:53:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://selinagerosa.com/Selina_Gerosa_Resume.pdf</loc>
+  <lastmod>2018-11-09T15:53:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://selinagerosa.com/img/digital/continuum_slides.pdf</loc>
+  <lastmod>2018-11-09T15:53:44+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
