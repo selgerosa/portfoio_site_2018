@@ -26,7 +26,7 @@ function changeNav(e,n){
   for(navind>s.length&&(navind=1),navind<1&&(navind=s.length),t=0;t<s.length;t++)s[t].style.display="none";s[navind-1].style.display="flex"
 }
 function showSites(){
-  var e,n=Math.floor(3*Math.random())+1,t=document.getElementsByClassName("sites"),s=Math.floor(Math.random()*t.length),a=[["55vh","63vw"],["150vh","5vw"],["80vh","20vw"]];
+  var e,n=Math.floor(3*Math.random())+1,t=document.getElementsByClassName("sites"),s=Math.floor(Math.random()*t.length),a=[["55vh","63vw"],["150vh","40vw"],["80vh","20vw"]];
   for(e=0;e<n;e++)t[s].style.display="block",t[s].style.top=a[e][0],t[s].style.left=a[e][1],s=Math.floor(Math.random()*t.length),posrand=Math.floor(Math.random()*a.length)
 }
 function randfriend(){
